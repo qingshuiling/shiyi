@@ -1,0 +1,60 @@
+	.t-flex {
+		display: flex;
+	}
+	.t-flex-wrap{
+		flex-wrap: wrap;
+	}
+	.t-center {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.t-column {
+		flex-direction: column;
+	}
+
+	.t-center-column {
+		display: flex;
+		align-items: center;
+	}
+
+	.t-center-row {
+		display: flex;
+		justify-content: center;
+	}
+
+	.t-between {
+		display: flex;
+		justify-content: space-between;
+	}
+	.t-end{
+		display: flex;
+		justify-content: flex-end;
+	}
+	.t-relative {
+		position: relative;
+	}
+
+	.t-absolute {
+		position: absolute;
+	}
+
+	.t-fixed {
+		position: fixed;
+	}
+
+	.t-bold {
+		font-weight: bold;
+	}
+	.t-text-ellipsis-nowrap{
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+	.t-text-ellipsis{
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+	
+	
